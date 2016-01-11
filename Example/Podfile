@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LazySwift_Example', :exclusive => true do
+  pod "LazySwift", :path => "../"
+end
+
+target 'LazySwift_Tests', :exclusive => true do
+  pod "LazySwift", :path => "../"
+
+  
+end
