@@ -1,0 +1,14 @@
+PODS:
+  - LazySwift (0.1.0)
+
+DEPENDENCIES:
+  - LazySwift (from `../`)
+
+EXTERNAL SOURCES:
+  LazySwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LazySwift: 1f7f8833b30457affe222f6072f1898d0bc9a1ba
+
+COCOAPODS: 0.39.0

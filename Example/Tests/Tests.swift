@@ -16,7 +16,7 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        XCTAssert((-CGPointMake(100, 50) == CGPointMake(-100, -50)), "Negate success")
     }
     
     func testPerformanceExample() {

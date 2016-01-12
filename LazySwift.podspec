@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "LazySwift"
   s.version          = "0.1.0"
-  s.summary          = "A short description of LazySwift."
+  s.summary          = "Help to code lazily in Swift"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+A collection of class extensions which help you to code lazily in Swift for iOS
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/LazySwift"

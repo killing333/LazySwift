@@ -1,0 +1,25 @@
+{
+  "name": "LazySwift",
+  "version": "0.1.0",
+  "summary": "A short description of LazySwift.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LazySwift",
+  "license": "MIT",
+  "authors": {
+    "killing333": "hlwanhoj@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LazySwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "LazySwift": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
