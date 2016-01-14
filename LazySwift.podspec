@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LazySwift"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Help to code lazily in Swift"
 
 # This description is used to generate tags and improve search results.
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
 A collection of class extensions which help you to code lazily in Swift for iOS
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LazySwift"
+  s.homepage         = "https://github.com/killing333/LazySwift"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "killing333" => "hlwanhoj@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LazySwift.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/killing333/LazySwift.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

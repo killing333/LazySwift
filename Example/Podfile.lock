@@ -1,5 +1,5 @@
 PODS:
-  - LazySwift (0.1.0)
+  - LazySwift (0.2.0)
 
 DEPENDENCIES:
   - LazySwift (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LazySwift: 1f7f8833b30457affe222f6072f1898d0bc9a1ba
+  LazySwift: cddcd8582d0398081d009db0708c0b0971b8777e
 
 COCOAPODS: 0.39.0

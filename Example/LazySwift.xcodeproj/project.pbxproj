@@ -10,11 +10,13 @@
 		38C7DA87635EB398E4773241 /* Pods_LazySwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D5E491066B4021F183BFF2 /* Pods_LazySwift_Tests.framework */; };
 		5D55BDC56013B46DDA0B31A7 /* Pods_LazySwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DD4E9F31781B564953DA5 /* Pods_LazySwift_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* TestCGPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* TestCGPointViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C6332C1C1C46351A00FE7260 /* TestUIColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6332C1B1C46351A00FE7260 /* TestUIColorViewController.swift */; };
+		C6825F161C4759410041D647 /* TestRegexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6825F151C4759410041D647 /* TestRegexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,7 @@
 		607FACD01AFB9204008FA782 /* LazySwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazySwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* TestCGPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCGPointViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		A5D5E491066B4021F183BFF2 /* Pods_LazySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB54CD1C74DDD7B2FD2FB20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C29E6385A119F2EC95E5EE59 /* Pods-LazySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift_Tests/Pods-LazySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C6332C1B1C46351A00FE7260 /* TestUIColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUIColorViewController.swift; sourceTree = "<group>"; };
+		C6825F151C4759410041D647 /* TestRegexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRegexViewController.swift; sourceTree = "<group>"; };
 		CF7DD4E9F31781B564953DA5 /* Pods_LazySwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazySwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E0D90A2A2419DF2EEB6385 /* Pods-LazySwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift_Example/Pods-LazySwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E5E4A74664CFF88B386F085E /* LazySwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LazySwift.podspec; path = ../LazySwift.podspec; sourceTree = "<group>"; };
@@ -94,7 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* TestCGPointViewController.swift */,
+				C6332C1B1C46351A00FE7260 /* TestUIColorViewController.swift */,
+				C6825F151C4759410041D647 /* TestRegexViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -359,7 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C6332C1C1C46351A00FE7260 /* TestUIColorViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* TestCGPointViewController.swift in Sources */,
+				C6825F161C4759410041D647 /* TestRegexViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

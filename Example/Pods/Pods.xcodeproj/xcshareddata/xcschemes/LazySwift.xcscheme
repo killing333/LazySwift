@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0008574F79A12CF5946D4D9E'
+               BlueprintIdentifier = '04F84E6778F8011C3CD838A7'
                BlueprintName = 'LazySwift'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LazySwift.framework'>

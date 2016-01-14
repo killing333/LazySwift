@@ -3,6 +3,8 @@ This application makes use of the following third party libraries:
 
 ## LazySwift
 
+The MIT License (MIT)
+
 Copyright (c) 2016 killing333 <hlwanhoj@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
