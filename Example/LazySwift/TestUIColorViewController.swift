@@ -41,10 +41,10 @@ class TestUIColorViewController: UITableViewController {
 
 	}
 	func updateResultView2() {
-		let regex: Regex? = try? Regex(pattern: "[0-9A-F]{6}", options: .CaseInsensitive)
-		if regex?.match(hexTextField.text!) {
+//		let regex: Regex? = try? Regex(pattern: "[0-9A-F]{6}", options: .CaseInsensitive)
+//		if regex?.match(hexTextField.text!) {
 //			resultView2.backgroundColor = UIColor(hex: <#T##Int#>, alpha: <#T##CGFloat#>)
-		}
+//		}
 	}
 	
 	
