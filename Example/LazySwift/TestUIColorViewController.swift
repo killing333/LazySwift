@@ -21,6 +21,8 @@ class TestUIColorViewController: UITableViewController {
 	@IBOutlet var resultView: UIView!
 	
 	@IBOutlet var hexTextField: UITextField!
+	@IBOutlet var alphaSlider2: UISlider!
+	@IBOutlet var alphaSliderLabel2: UILabel!
 	@IBOutlet var resultView2: UIView!
 	
 	override func viewDidLoad() {
@@ -30,6 +32,7 @@ class TestUIColorViewController: UITableViewController {
 		greenSlider.sendActionsForControlEvents(UIControlEvents.ValueChanged)
 		blueSlider.sendActionsForControlEvents(UIControlEvents.ValueChanged)
 		alphaSlider.sendActionsForControlEvents(UIControlEvents.ValueChanged)
+		alphaSlider2.sendActionsForControlEvents(.ValueChanged);
 	}
 	
 	
@@ -41,10 +44,17 @@ class TestUIColorViewController: UITableViewController {
 
 	}
 	func updateResultView2() {
-//		let regex: Regex? = try? Regex(pattern: "[0-9A-F]{6}", options: .CaseInsensitive)
-//		if regex?.match(hexTextField.text!) {
-//			resultView2.backgroundColor = UIColor(hex: <#T##Int#>, alpha: <#T##CGFloat#>)
-//		}
+		guard let regex: Regex = try? Regex(pattern: "[0-9A-F]{6}", options: .CaseInsensitive) else {
+			return
+		}
+		
+		guard let hexString: String = hexTextField.text! else {
+			return
+		}
+		
+		if regex.match(hexTextField.text!) {
+			resultView2.backgroundColor = UIColor(hex: Int(hexString, radix: 16)!, alpha: CGFloat(alphaSlider2.value))
+		}
 	}
 	
 	
@@ -65,6 +75,10 @@ class TestUIColorViewController: UITableViewController {
 	@IBAction func alphaSliderValueChanged(sender: UISlider) {
 		alphaSliderLabel.text = String(format: "%.3f", sender.value)
 		updateResultView()
+	}
+	@IBAction func alphaSlider2ValueChanged(sender: UISlider) {
+		alphaSliderLabel2.text = String(format: "%.3f", sender.value)
+		updateResultView2()
 	}
 	
 	

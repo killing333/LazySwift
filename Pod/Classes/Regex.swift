@@ -30,7 +30,7 @@ public struct Regex {
 //		matcher = try NSRegularExpression(pattern: self.pattern, options: self.options)
 //	}
 	
-	public func match(string: String, options: NSMatchingOptions = []) -> Bool! {
+	public func match(string: String, options: NSMatchingOptions = []) -> Bool {
 		return self.matcher?.numberOfMatchesInString(string, options: options, range: NSMakeRange(0, string.utf16.count)) != 0
 	}
 }

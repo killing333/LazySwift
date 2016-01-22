@@ -907,7 +907,7 @@
                                                     </constraints>
                                                     <color key="minimumTrackTintColor" red="0.93731737140000004" green="0.93728923799999997" blue="0.93730515240000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
-                                                        <action selector="alphaSliderValueChanged:" destination="180-7A-rog" eventType="valueChanged" id="YFC-DT-VbG"/>
+                                                        <action selector="alphaSlider2ValueChanged:" destination="180-7A-rog" eventType="valueChanged" id="sM9-s4-QoW"/>
                                                     </connections>
                                                 </slider>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.385" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpB-qN-GAy">
@@ -971,7 +971,9 @@
                     <navigationItem key="navigationItem" title="UIColor" id="lFN-H8-3TG"/>
                     <connections>
                         <outlet property="alphaSlider" destination="FqV-up-mRq" id="hbn-Qq-NoA"/>
-                        <outlet property="alphaSliderLabel" destination="ilk-jT-4oR" id="NEt-Be-wCQ"/>
+                        <outlet property="alphaSlider2" destination="gZI-R3-Bgn" id="OM9-6T-gqB"/>
+                        <outlet property="alphaSliderLabel" destination="ilk-jT-4oR" id="9Gf-rz-KAS"/>
+                        <outlet property="alphaSliderLabel2" destination="PpB-qN-GAy" id="M4A-xd-yrS"/>
                         <outlet property="blueSlider" destination="FhW-gD-Fwn" id="itk-xi-cTC"/>
                         <outlet property="blueSliderLabel" destination="loq-As-jCz" id="xRP-13-P5O"/>
                         <outlet property="greenSlider" destination="Ycx-8n-nrJ" id="Ugq-TW-gsT"/>

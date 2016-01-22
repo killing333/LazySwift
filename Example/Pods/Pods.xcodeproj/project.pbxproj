@@ -204,8 +204,8 @@
 		8DCC4C0EC103DE5F04D727BD455E2D71 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8D333B6C2CC9F3A6D709495BCAF9C1F5 /* CGPoint+Lazy.swift */,
 				DB8723F7F13F01023F781F49FD19B143 /* Regex.swift */,
+				8D333B6C2CC9F3A6D709495BCAF9C1F5 /* CGPoint+Lazy.swift */,
 				432E4613AF353E1E8C21561B2975EC0F /* UIColor+Lazy.swift */,
 			);
 			path = Classes;
