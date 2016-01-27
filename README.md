@@ -5,11 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/LazySwift.svg?style=flat)](http://cocoapods.org/pods/LazySwift)
 [![Platform](https://img.shields.io/cocoapods/p/LazySwift.svg?style=flat)](http://cocoapods.org/pods/LazySwift)
 
+Various class extensions which help you code lazily
+
+## Extensions
+
+Extensions of the following classes are available.
+- CGPoint
+- NSObject
+- UIColor
+- UIView
+Please refer to the class file for the function list
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 8.0 at least
 
 ## Installation
 

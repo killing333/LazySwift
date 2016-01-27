@@ -16,6 +16,8 @@
 		4CDB13F4C84BA0CBDA063206DD98587A /* CGPoint+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D333B6C2CC9F3A6D709495BCAF9C1F5 /* CGPoint+Lazy.swift */; };
 		B7CD224F15AA58ECAFFF2B21FE75F227 /* LazySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C265C319550E0D0705D5756C82062C /* LazySwift-dummy.m */; };
 		C26CB357768574ECCC407AD4971BD502 /* LazySwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADFB3C89364C5A62908DA983638DD81B /* LazySwift.bundle */; };
+		C6F28B401C575B7200AD9AF7 /* UIView+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F28B3F1C575B7200AD9AF7 /* UIView+Lazy.swift */; };
+		C6F28B431C575F9900AD9AF7 /* NSObject+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F28B421C575F9900AD9AF7 /* NSObject+Lazy.swift */; };
 		E45EC4EDC30570898089220CCA52AF44 /* LazySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C00C830C4D236608DCD34070A8B86F /* LazySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAC988D8AA06B1F7EBD4421A7D643DF1 /* Pods-LazySwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD9EE0F7166286E6D0C42085ECD076 /* Pods-LazySwift_Example-dummy.m */; };
 		EB77745E652A6C3CFD570AD524497957 /* UIColor+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E4613AF353E1E8C21561B2975EC0F /* UIColor+Lazy.swift */; };
@@ -74,6 +76,8 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BEC03B02E9DCDF5FE01F8C5BDF69A3CD /* LazySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LazySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C00C830C4D236608DCD34070A8B86F /* LazySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazySwift-umbrella.h"; sourceTree = "<group>"; };
+		C6F28B3F1C575B7200AD9AF7 /* UIView+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Lazy.swift"; sourceTree = "<group>"; };
+		C6F28B421C575F9900AD9AF7 /* NSObject+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Lazy.swift"; sourceTree = "<group>"; };
 		C702180C415AED91003206AC7EBD9C5E /* Pods-LazySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C7A3E4B6EB87552BD639CA2F4DA2C9C1 /* Pods-LazySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B4F3BCAAB0B4AB7FC9A8D3FA2088C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -206,7 +210,9 @@
 			children = (
 				DB8723F7F13F01023F781F49FD19B143 /* Regex.swift */,
 				8D333B6C2CC9F3A6D709495BCAF9C1F5 /* CGPoint+Lazy.swift */,
+				C6F28B421C575F9900AD9AF7 /* NSObject+Lazy.swift */,
 				432E4613AF353E1E8C21561B2975EC0F /* UIColor+Lazy.swift */,
+				C6F28B3F1C575B7200AD9AF7 /* UIView+Lazy.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -408,8 +414,10 @@
 			files = (
 				4CDB13F4C84BA0CBDA063206DD98587A /* CGPoint+Lazy.swift in Sources */,
 				B7CD224F15AA58ECAFFF2B21FE75F227 /* LazySwift-dummy.m in Sources */,
+				C6F28B401C575B7200AD9AF7 /* UIView+Lazy.swift in Sources */,
 				1FA9B906B53D4792AA5EDED64DADDC2E /* Regex.swift in Sources */,
 				EB77745E652A6C3CFD570AD524497957 /* UIColor+Lazy.swift in Sources */,
+				C6F28B431C575F9900AD9AF7 /* NSObject+Lazy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UIColor {
+public extension UIColor {
 	/**
 	Create color using scale 0 - 255. Alpha remains from 0 - 1
 	- Parameter redInt:			Red component, from 0 to 255
