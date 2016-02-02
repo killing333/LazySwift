@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C624625A1C5F650700A06F0C /* TestLazyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62462591C5F650700A06F0C /* TestLazyViewController.swift */; };
 		C6332C1C1C46351A00FE7260 /* TestUIColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6332C1B1C46351A00FE7260 /* TestUIColorViewController.swift */; };
 		C67208E31C5864C4002BF5B3 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67208E21C5864C4002BF5B3 /* TestView.swift */; };
 		C67208E81C586E60002BF5B3 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67208E71C586E60002BF5B3 /* TestView.xib */; };
@@ -49,6 +50,7 @@
 		A5D5E491066B4021F183BFF2 /* Pods_LazySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB54CD1C74DDD7B2FD2FB20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C29E6385A119F2EC95E5EE59 /* Pods-LazySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift_Tests/Pods-LazySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C62462591C5F650700A06F0C /* TestLazyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLazyViewController.swift; sourceTree = "<group>"; };
 		C6332C1B1C46351A00FE7260 /* TestUIColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUIColorViewController.swift; sourceTree = "<group>"; };
 		C67208E21C5864C4002BF5B3 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestView.swift; path = UIView/TestView.swift; sourceTree = "<group>"; };
 		C67208E71C586E60002BF5B3 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = UIView/TestView.xib; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				C67208E41C586E12002BF5B3 /* UIView */,
+				C62462591C5F650700A06F0C /* TestLazyViewController.swift */,
 			);
 			name = "Example for LazySwift";
 			path = LazySwift;
@@ -386,6 +389,7 @@
 				C67208EA1C587035002BF5B3 /* TestUIViewCreationViewController.swift in Sources */,
 				C6332C1C1C46351A00FE7260 /* TestUIColorViewController.swift in Sources */,
 				C67208E31C5864C4002BF5B3 /* TestView.swift in Sources */,
+				C624625A1C5F650700A06F0C /* TestLazyViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* TestCGPointViewController.swift in Sources */,
 				C6825F161C4759410041D647 /* TestRegexViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
