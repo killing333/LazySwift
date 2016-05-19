@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43FC6FA4929AFA6B961503B7 /* Pods_LazySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478AFDCF6EDED442E960CC93 /* Pods_LazySwift.framework */; };
+		C658378A1CEDAB4A00F1C046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65837891CEDAB4A00F1C046 /* AppDelegate.swift */; };
+		C658378C1CEDAB4A00F1C046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658378B1CEDAB4A00F1C046 /* ViewController.swift */; };
+		C658378F1CEDAB4A00F1C046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C658378D1CEDAB4A00F1C046 /* Main.storyboard */; };
+		C65837911CEDAB4A00F1C046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65837901CEDAB4A00F1C046 /* Assets.xcassets */; };
+		C65837941CEDAB4A00F1C046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65837921CEDAB4A00F1C046 /* LaunchScreen.storyboard */; };
+		C658379C1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658379B1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift */; };
+		C65837A21CEDAC6000F1C046 /* UIScrollView+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65837A11CEDAC6000F1C046 /* UIScrollView+Lazy.swift */; };
+		C65837A41CEDAC9200F1C046 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65837A31CEDAC9200F1C046 /* TestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		478AFDCF6EDED442E960CC93 /* Pods_LazySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED629C2EE8F76EABA9C24E0 /* Pods-LazySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift/Pods-LazySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		C65837861CEDAB4A00F1C046 /* LazySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65837891CEDAB4A00F1C046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C658378B1CEDAB4A00F1C046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C658378E1CEDAB4A00F1C046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C65837901CEDAB4A00F1C046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C65837931CEDAB4A00F1C046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C65837951CEDAB4A00F1C046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C658379B1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExtUIScrollViewController.swift; sourceTree = "<group>"; };
+		C65837A11CEDAC6000F1C046 /* UIScrollView+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Lazy.swift"; sourceTree = "<group>"; };
+		C65837A31CEDAC9200F1C046 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CAF36F038E891997AAA0B42E /* Pods-LazySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift/Pods-LazySwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65837831CEDAB4A00F1C046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FC6FA4929AFA6B961503B7 /* Pods_LazySwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63BE089B8F22E5BC827E659 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED629C2EE8F76EABA9C24E0 /* Pods-LazySwift.debug.xcconfig */,
+				CAF36F038E891997AAA0B42E /* Pods-LazySwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C658377D1CEDAB4A00F1C046 = {
+			isa = PBXGroup;
+			children = (
+				C65837881CEDAB4A00F1C046 /* LazySwift */,
+				C65837871CEDAB4A00F1C046 /* Products */,
+				B63BE089B8F22E5BC827E659 /* Pods */,
+				F6F0875E2216BB996249EDB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C65837871CEDAB4A00F1C046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65837861CEDAB4A00F1C046 /* LazySwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65837881CEDAB4A00F1C046 /* LazySwift */ = {
+			isa = PBXGroup;
+			children = (
+				C65837891CEDAB4A00F1C046 /* AppDelegate.swift */,
+				C658378B1CEDAB4A00F1C046 /* ViewController.swift */,
+				C658378D1CEDAB4A00F1C046 /* Main.storyboard */,
+				C65837901CEDAB4A00F1C046 /* Assets.xcassets */,
+				C65837921CEDAB4A00F1C046 /* LaunchScreen.storyboard */,
+				C65837951CEDAB4A00F1C046 /* Info.plist */,
+				C65837A31CEDAC9200F1C046 /* TestViewController.swift */,
+				C658379B1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift */,
+				C65837A01CEDAC6000F1C046 /* Lazy */,
+			);
+			path = LazySwift;
+			sourceTree = "<group>";
+		};
+		C65837A01CEDAC6000F1C046 /* Lazy */ = {
+			isa = PBXGroup;
+			children = (
+				C65837A11CEDAC6000F1C046 /* UIScrollView+Lazy.swift */,
+			);
+			path = Lazy;
+			sourceTree = "<group>";
+		};
+		F6F0875E2216BB996249EDB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478AFDCF6EDED442E960CC93 /* Pods_LazySwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65837851CEDAB4A00F1C046 /* LazySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65837981CEDAB4A00F1C046 /* Build configuration list for PBXNativeTarget "LazySwift" */;
+			buildPhases = (
+				2960C63E740DF69B6D2A6113 /* 📦 Check Pods Manifest.lock */,
+				C65837821CEDAB4A00F1C046 /* Sources */,
+				C65837831CEDAB4A00F1C046 /* Frameworks */,
+				C65837841CEDAB4A00F1C046 /* Resources */,
+				60A01498392F6D856DD32B87 /* 📦 Embed Pods Frameworks */,
+				A75A8951ECBF7766A6FAC7D4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazySwift;
+			productName = LazySwift;
+			productReference = C65837861CEDAB4A00F1C046 /* LazySwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C658377E1CEDAB4A00F1C046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					C65837851CEDAB4A00F1C046 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C65837811CEDAB4A00F1C046 /* Build configuration list for PBXProject "LazySwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C658377D1CEDAB4A00F1C046;
+			productRefGroup = C65837871CEDAB4A00F1C046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65837851CEDAB4A00F1C046 /* LazySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65837841CEDAB4A00F1C046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65837941CEDAB4A00F1C046 /* LaunchScreen.storyboard in Resources */,
+				C65837911CEDAB4A00F1C046 /* Assets.xcassets in Resources */,
+				C658378F1CEDAB4A00F1C046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2960C63E740DF69B6D2A6113 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60A01498392F6D856DD32B87 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazySwift/Pods-LazySwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A75A8951ECBF7766A6FAC7D4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazySwift/Pods-LazySwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65837821CEDAB4A00F1C046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65837A41CEDAC9200F1C046 /* TestViewController.swift in Sources */,
+				C658378C1CEDAB4A00F1C046 /* ViewController.swift in Sources */,
+				C65837A21CEDAC6000F1C046 /* UIScrollView+Lazy.swift in Sources */,
+				C658378A1CEDAB4A00F1C046 /* AppDelegate.swift in Sources */,
+				C658379C1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C658378D1CEDAB4A00F1C046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C658378E1CEDAB4A00F1C046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C65837921CEDAB4A00F1C046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65837931CEDAB4A00F1C046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C65837961CEDAB4A00F1C046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C65837971CEDAB4A00F1C046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65837991CEDAB4A00F1C046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED629C2EE8F76EABA9C24E0 /* Pods-LazySwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LazySwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LazySwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C658379A1CEDAB4A00F1C046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF36F038E891997AAA0B42E /* Pods-LazySwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LazySwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LazySwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65837811CEDAB4A00F1C046 /* Build configuration list for PBXProject "LazySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65837961CEDAB4A00F1C046 /* Debug */,
+				C65837971CEDAB4A00F1C046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65837981CEDAB4A00F1C046 /* Build configuration list for PBXNativeTarget "LazySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65837991CEDAB4A00F1C046 /* Debug */,
+				C658379A1CEDAB4A00F1C046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C658377E1CEDAB4A00F1C046 /* Project object */;
+}
