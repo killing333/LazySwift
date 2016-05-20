@@ -8,21 +8,30 @@
 
 import UIKit
 
+let TestViewSectionNameExtensions = "Extensions"
+let TestViewSectionNameLazy = "Lazies"
+
 class TestViewController: UITableViewController {
-	let SectionExtension = 0
+	
+	let sections = [ TestViewSectionNameExtensions,
+	                 TestViewSectionNameLazy, ]
+	let lazies = [ "LazyStackView", ]
 	let extensions = [ "UIScrollView", ]
+	
 
 	
 	
 	// MARK: UITableView Data Source
 	override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-		return 1
+		return sections.count
 	}
 	
 	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		switch section {
-		case SectionExtension:
+		switch sections[section] {
+		case TestViewSectionNameExtensions:
 			return extensions.count
+		case TestViewSectionNameLazy:
+			return lazies.count
 		default:
 			return 0
 		}
@@ -31,11 +40,13 @@ class TestViewController: UITableViewController {
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
 		
-		switch indexPath.section {
+		switch sections[indexPath.section] {
 			
 		// Extensions
-		case SectionExtension:
+		case TestViewSectionNameExtensions:
 			cell.textLabel?.text = extensions[indexPath.row]
+		case TestViewSectionNameLazy:
+			cell.textLabel?.text = lazies[indexPath.row]
 		default:
 			()
 		}
@@ -45,13 +56,20 @@ class TestViewController: UITableViewController {
 
 	// MARK: UITableView Delegate
 	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-		switch indexPath.section {
+		switch sections[indexPath.section] {
 			
 		// Extensions
-		case SectionExtension:
+		case TestViewSectionNameExtensions:
 			switch extensions[indexPath.row] {
 			case "UIScrollView":
 				navigationController?.pushViewController(TestExtUIScrollViewController(nibName: nil, bundle: nil), animated: true)
+			default:
+				()
+			}
+		case TestViewSectionNameLazy:
+			switch lazies[indexPath.row] {
+			case "LazyStackView":
+				navigationController?.pushViewController(TestLazyStackViewController(nibName: nil, bundle: nil), animated: true)
 			default:
 				()
 			}
