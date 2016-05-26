@@ -8,7 +8,6 @@
 
 import UIKit
 import SnapKit
-import LazySwift
 
 class TestExtUIScrollViewController: UIViewController, UIScrollViewDelegate {
 	var scrollView: UIScrollView!

@@ -18,6 +18,8 @@
 		C65837A41CEDAC9200F1C046 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65837A31CEDAC9200F1C046 /* TestViewController.swift */; };
 		C6AEB8801CEEBBF600ECA1E6 /* LazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEB87F1CEEBBF600ECA1E6 /* LazyStackView.swift */; };
 		C6AEB8831CEEECDE00ECA1E6 /* TestLazyStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEB8821CEEECDE00ECA1E6 /* TestLazyStackViewController.swift */; };
+		C6F33B0A1CF695E90051BFFC /* TestExtCGRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F33B091CF695E90051BFFC /* TestExtCGRectViewController.swift */; };
+		C6F33B0C1CF69F400051BFFC /* CGRect+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F33B0B1CF69F400051BFFC /* CGRect+Lazy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		C6AEB87F1CEEBBF600ECA1E6 /* LazyStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyStackView.swift; sourceTree = "<group>"; };
 		C6AEB8811CEEC59900ECA1E6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		C6AEB8821CEEECDE00ECA1E6 /* TestLazyStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLazyStackViewController.swift; sourceTree = "<group>"; };
+		C6F33B091CF695E90051BFFC /* TestExtCGRectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExtCGRectViewController.swift; sourceTree = "<group>"; };
+		C6F33B0B1CF69F400051BFFC /* CGRect+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Lazy.swift"; sourceTree = "<group>"; };
 		CAF36F038E891997AAA0B42E /* Pods-LazySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift/Pods-LazySwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +93,7 @@
 				C65837951CEDAB4A00F1C046 /* Info.plist */,
 				C65837A31CEDAC9200F1C046 /* TestViewController.swift */,
 				C658379B1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift */,
+				C6F33B091CF695E90051BFFC /* TestExtCGRectViewController.swift */,
 				C6AEB8821CEEECDE00ECA1E6 /* TestLazyStackViewController.swift */,
 				C65837A01CEDAC6000F1C046 /* Lazy */,
 				C6AEB8811CEEC59900ECA1E6 /* MyPlayground.playground */,
@@ -99,6 +104,7 @@
 		C65837A01CEDAC6000F1C046 /* Lazy */ = {
 			isa = PBXGroup;
 			children = (
+				C6F33B0B1CF69F400051BFFC /* CGRect+Lazy.swift */,
 				C65837A11CEDAC6000F1C046 /* UIScrollView+Lazy.swift */,
 				C6AEB87F1CEEBBF600ECA1E6 /* LazyStackView.swift */,
 			);
@@ -234,10 +240,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F33B0C1CF69F400051BFFC /* CGRect+Lazy.swift in Sources */,
 				C6AEB8831CEEECDE00ECA1E6 /* TestLazyStackViewController.swift in Sources */,
 				C65837A41CEDAC9200F1C046 /* TestViewController.swift in Sources */,
 				C658378C1CEDAB4A00F1C046 /* ViewController.swift in Sources */,
 				C65837A21CEDAC6000F1C046 /* UIScrollView+Lazy.swift in Sources */,
+				C6F33B0A1CF695E90051BFFC /* TestExtCGRectViewController.swift in Sources */,
 				C6AEB8801CEEBBF600ECA1E6 /* LazyStackView.swift in Sources */,
 				C658378A1CEDAB4A00F1C046 /* AppDelegate.swift in Sources */,
 				C658379C1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift in Sources */,

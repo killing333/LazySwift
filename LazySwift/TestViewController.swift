@@ -16,7 +16,8 @@ class TestViewController: UITableViewController {
 	let sections = [ TestViewSectionNameExtensions,
 	                 TestViewSectionNameLazy, ]
 	let lazies = [ "LazyStackView", ]
-	let extensions = [ "UIScrollView", ]
+	let extensions = [ "CGRect",
+	                   "UIScrollView", ]
 	
 
 	
@@ -61,6 +62,8 @@ class TestViewController: UITableViewController {
 		// Extensions
 		case TestViewSectionNameExtensions:
 			switch extensions[indexPath.row] {
+			case "CGRect":
+				navigationController?.pushViewController(TestExtCGRectViewController(nibName: nil, bundle: nil), animated: true)
 			case "UIScrollView":
 				navigationController?.pushViewController(TestExtUIScrollViewController(nibName: nil, bundle: nil), animated: true)
 			default:
@@ -76,5 +79,19 @@ class TestViewController: UITableViewController {
 		default:
 			()
 		}
+	}
+	
+	override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+		let container = UIView(frame: CGRectZero)
+		
+		let label = UILabel(frame: CGRectZero)
+		label.font = UIFont(name: "Avenir-Medium", size: 14)
+		label.text = sections[section]
+		container.addSubview(label)
+		label.snp_makeConstraints { (make) in
+			make.edges.equalTo(UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 0))
+		}
+		
+		return container
 	}
 }
