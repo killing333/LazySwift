@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		43FC6FA4929AFA6B961503B7 /* Pods_LazySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478AFDCF6EDED442E960CC93 /* Pods_LazySwift.framework */; };
+		C644370C1D0514AA0066D902 /* PlayUIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644370B1D0514AA0066D902 /* PlayUIScrollViewController.swift */; };
+		C644370E1D051B900066D902 /* PlayUITableViewFixedHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644370D1D051B900066D902 /* PlayUITableViewFixedHeaderViewController.swift */; };
+		C64437101D052F930066D902 /* CGPoint+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644370F1D052F930066D902 /* CGPoint+Lazy.swift */; };
+		C64437121D0557CE0066D902 /* PlayUIScrollViewFixedHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64437111D0557CE0066D902 /* PlayUIScrollViewFixedHeaderViewController.swift */; };
 		C658378A1CEDAB4A00F1C046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65837891CEDAB4A00F1C046 /* AppDelegate.swift */; };
 		C658378C1CEDAB4A00F1C046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C658378B1CEDAB4A00F1C046 /* ViewController.swift */; };
 		C658378F1CEDAB4A00F1C046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C658378D1CEDAB4A00F1C046 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* Begin PBXFileReference section */
 		478AFDCF6EDED442E960CC93 /* Pods_LazySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED629C2EE8F76EABA9C24E0 /* Pods-LazySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift/Pods-LazySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		C644370B1D0514AA0066D902 /* PlayUIScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayUIScrollViewController.swift; sourceTree = "<group>"; };
+		C644370D1D051B900066D902 /* PlayUITableViewFixedHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayUITableViewFixedHeaderViewController.swift; sourceTree = "<group>"; };
+		C644370F1D052F930066D902 /* CGPoint+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Lazy.swift"; sourceTree = "<group>"; };
+		C64437111D0557CE0066D902 /* PlayUIScrollViewFixedHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayUIScrollViewFixedHeaderViewController.swift; sourceTree = "<group>"; };
 		C65837861CEDAB4A00F1C046 /* LazySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65837891CEDAB4A00F1C046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C658378B1CEDAB4A00F1C046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +105,9 @@
 				C658379B1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift */,
 				C6F33B091CF695E90051BFFC /* TestExtCGRectViewController.swift */,
 				C6AEB8821CEEECDE00ECA1E6 /* TestLazyStackViewController.swift */,
+				C644370B1D0514AA0066D902 /* PlayUIScrollViewController.swift */,
+				C644370D1D051B900066D902 /* PlayUITableViewFixedHeaderViewController.swift */,
+				C64437111D0557CE0066D902 /* PlayUIScrollViewFixedHeaderViewController.swift */,
 				C65837A01CEDAC6000F1C046 /* Lazy */,
 				C6AEB8811CEEC59900ECA1E6 /* MyPlayground.playground */,
 			);
@@ -107,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				C6F33B0B1CF69F400051BFFC /* CGRect+Lazy.swift */,
+				C644370F1D052F930066D902 /* CGPoint+Lazy.swift */,
 				C6F33B0D1CF6D0400051BFFC /* UIColor+Lazy.swift */,
 				C65837A11CEDAC6000F1C046 /* UIScrollView+Lazy.swift */,
 				C6AEB87F1CEEBBF600ECA1E6 /* LazyStackView.swift */,
@@ -243,13 +255,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64437101D052F930066D902 /* CGPoint+Lazy.swift in Sources */,
 				C6F33B0C1CF69F400051BFFC /* CGRect+Lazy.swift in Sources */,
 				C6AEB8831CEEECDE00ECA1E6 /* TestLazyStackViewController.swift in Sources */,
 				C65837A41CEDAC9200F1C046 /* TestViewController.swift in Sources */,
 				C6F33B0E1CF6D0400051BFFC /* UIColor+Lazy.swift in Sources */,
+				C644370C1D0514AA0066D902 /* PlayUIScrollViewController.swift in Sources */,
 				C658378C1CEDAB4A00F1C046 /* ViewController.swift in Sources */,
 				C65837A21CEDAC6000F1C046 /* UIScrollView+Lazy.swift in Sources */,
+				C64437121D0557CE0066D902 /* PlayUIScrollViewFixedHeaderViewController.swift in Sources */,
 				C6F33B0A1CF695E90051BFFC /* TestExtCGRectViewController.swift in Sources */,
+				C644370E1D051B900066D902 /* PlayUITableViewFixedHeaderViewController.swift in Sources */,
 				C6AEB8801CEEBBF600ECA1E6 /* LazyStackView.swift in Sources */,
 				C658378A1CEDAB4A00F1C046 /* AppDelegate.swift in Sources */,
 				C658379C1CEDAB6F00F1C046 /* TestExtUIScrollViewController.swift in Sources */,
