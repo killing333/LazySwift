@@ -25,6 +25,7 @@
 		C6F33B0A1CF695E90051BFFC /* TestExtCGRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F33B091CF695E90051BFFC /* TestExtCGRectViewController.swift */; };
 		C6F33B0C1CF69F400051BFFC /* CGRect+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F33B0B1CF69F400051BFFC /* CGRect+Lazy.swift */; };
 		C6F33B0E1CF6D0400051BFFC /* UIColor+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F33B0D1CF6D0400051BFFC /* UIColor+Lazy.swift */; };
+		C6F7EC9D1D0AB6720039A333 /* NSDate+Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7EC9C1D0AB6720039A333 /* NSDate+Lazy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		C6F33B091CF695E90051BFFC /* TestExtCGRectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExtCGRectViewController.swift; sourceTree = "<group>"; };
 		C6F33B0B1CF69F400051BFFC /* CGRect+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Lazy.swift"; sourceTree = "<group>"; };
 		C6F33B0D1CF6D0400051BFFC /* UIColor+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Lazy.swift"; sourceTree = "<group>"; };
+		C6F7EC9C1D0AB6720039A333 /* NSDate+Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Lazy.swift"; sourceTree = "<group>"; };
 		CAF36F038E891997AAA0B42E /* Pods-LazySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazySwift/Pods-LazySwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 			children = (
 				C6F33B0B1CF69F400051BFFC /* CGRect+Lazy.swift */,
 				C644370F1D052F930066D902 /* CGPoint+Lazy.swift */,
+				C6F7EC9C1D0AB6720039A333 /* NSDate+Lazy.swift */,
 				C6F33B0D1CF6D0400051BFFC /* UIColor+Lazy.swift */,
 				C65837A11CEDAC6000F1C046 /* UIScrollView+Lazy.swift */,
 				C6AEB87F1CEEBBF600ECA1E6 /* LazyStackView.swift */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F7EC9D1D0AB6720039A333 /* NSDate+Lazy.swift in Sources */,
 				C64437101D052F930066D902 /* CGPoint+Lazy.swift in Sources */,
 				C6F33B0C1CF69F400051BFFC /* CGRect+Lazy.swift in Sources */,
 				C6AEB8831CEEECDE00ECA1E6 /* TestLazyStackViewController.swift in Sources */,
