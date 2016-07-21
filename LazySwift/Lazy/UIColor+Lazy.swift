@@ -17,4 +17,19 @@ extension UIColor {
 	convenience init(netHex: Int, alpha: CGFloat) {
 		self.init(red: CGFloat((netHex >> 16) & 0xff) / 255.0, green: CGFloat((netHex >> 8) & 0xff) / 255.0, blue: CGFloat(netHex & 0xff) / 255.0, alpha: alpha)
 	}
+
+	/**
+	Return a darker color of this
+	*/
+	func darkerColor() -> UIColor {
+		var h: CGFloat = 0
+		var s: CGFloat = 0
+		var b: CGFloat = 0
+		var a: CGFloat = 0;
+		if self.getHue(&h, saturation: &s, brightness: &b, alpha: &a) {
+			return UIColor(hue: h, saturation: s, brightness: b * 0.75, alpha: a)
+		}
+		
+		return self
+	}
 }

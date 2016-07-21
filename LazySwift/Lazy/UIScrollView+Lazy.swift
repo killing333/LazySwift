@@ -23,6 +23,9 @@ import UIKit
 
 public extension UIScrollView {
 	
+	/**
+	Scroll to particular border/corner
+	*/
 	public func scrollTo(position: UIScrollViewScrollPosition, animated: Bool) -> Void {
 		let scrollableSize = CGSize(width: max(0, contentInset.left + contentSize.width + contentInset.right - bounds.width),
 									height: max(0, contentInset.top + contentSize.height + contentInset.bottom - bounds.height))
